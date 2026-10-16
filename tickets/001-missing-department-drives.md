@@ -62,3 +62,11 @@ Staff accounts were created in ADUC, but the *Member Of* step did not save, so d
 
 - The onboarding script (`New-MMGUser.ps1`) adds the department group and **verifies** membership before reporting success.
 - The weekly AD report flags empty department groups and users not in any `GG_` group.
+
+## Evidence
+
+![](../screenshots/18-glpi-ticket-001-timeline.png)
+
+| Service Advisor after the fix | Finance user, same PC |
+| --- | --- |
+| ![](../screenshots/02-service-user-drives.png) | ![](../screenshots/04-finance-user-drives.png) |

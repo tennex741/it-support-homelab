@@ -9,6 +9,14 @@ Evidence from the build. Passwords are hidden; host-PC desktop and apps are crop
 | ![](13-pfsense-console-interfaces.png) | **13** – fw01 with WAN, SERVERS (10.10.10.1), STAFF (10.10.20.1) and GUEST (10.10.30.1) |
 | ![](12-pfsense-staff-rules.png) | **12** – STAFF rules in order: DC01, helpdesk web ports, block other internal, internet. Traffic counters show the rules in use |
 
+## Active Directory and Group Policy (DC01)
+
+| | |
+| --- | --- |
+| ![](14-ad-ou-structure.png) | **14** – MoonMotorGroup OU structure: department user OUs, computer OUs, groups, service accounts and disabled users |
+| ![](15-gpo-management-linked-gpos.png) | **15** – MMG - Workstation Security linked to Computers; MMG - Drive Maps and MMG - Printers linked to Users |
+| ![](16-gpo-drive-maps.png) | **16** – Drive Maps GPO: P, S, W, Q and F |
+
 ## Staff workstation (WS01)
 
 | | |
@@ -24,6 +32,8 @@ Evidence from the build. Passwords are hidden; host-PC desktop and apps are crop
 | --- | --- |
 | ![](05-glpi-requirements-1.png) | **05** – Requirements check passed |
 | ![](06-glpi-requirements-2-security.png) | **06** – Security and suggested checks passed |
+| ![](17-glpi-dashboard.png) | **17** – Helpdesk dashboard with real asset and ticket counts |
+| ![](18-glpi-ticket-001-timeline.png) | **18** – Ticket 001 timeline: request, followup, task with diagnosis and 20 minutes logged, closed |
 | ![](07-glpi-login.png) | **07** – Helpdesk login (password hidden) |
 | ![](11-glpi-knowledge-base.png) | **11** – Six staff knowledge-base articles published |
 
