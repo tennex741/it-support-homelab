@@ -2,6 +2,13 @@
 
 Evidence from the build. Passwords are hidden; host-PC desktop and apps are cropped out.
 
+## Firewall (pfSense)
+
+| | |
+| --- | --- |
+| ![](13-pfsense-console-interfaces.png) | **13** – fw01 with WAN, SERVERS (10.10.10.1), STAFF (10.10.20.1) and GUEST (10.10.30.1) |
+| ![](12-pfsense-staff-rules.png) | **12** – STAFF rules in order: DC01, helpdesk web ports, block other internal, internet. Traffic counters show the rules in use |
+
 ## Staff workstation (WS01)
 
 | | |
