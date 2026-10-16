@@ -86,7 +86,13 @@ Access is driven entirely by group membership. Adding a person to one department
 | Management | `GG_Management` | P, S, W, Q, F | — |
 | IT | `GG_IT` | P: Public | — |
 
-Verified on the same PC with two different users: a Service Advisor received P:, W: and Q:, while a Finance user received only P: and F:. See [`screenshots/`](screenshots/).
+Verified on the same PC with two different users:
+
+| Service Advisor | Finance |
+| --- | --- |
+| ![](screenshots/17-ticket001-jake-drives-after.png) | ![](screenshots/18-finance-user-drives.png) |
+
+All evidence: [`screenshots/`](screenshots/).
 
 ---
 

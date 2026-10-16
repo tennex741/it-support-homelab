@@ -63,3 +63,8 @@ Static network configuration not applied during OS installation on a subnet with
 ## Prevention
 
 Server build checklist now ends with: `ip addr`, ping the gateway, resolve an internal and an external name, before the build is signed off.
+
+## Evidence
+
+![](../screenshots/19-ticket002-no-ip-diagnosis.png)
+![](../screenshots/20-ticket002-netplan-fixed.png)
