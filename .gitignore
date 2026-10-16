@@ -1,0 +1,13 @@
+# Never commit credentials
+*password*
+*passwords*
+*.kdbx
+lab-passwords.txt
+
+# pfSense backups contain password hashes - commit only a redacted copy
+config-*.xml
+
+# OS clutter
+Thumbs.db
+.DS_Store
+desktop.ini
