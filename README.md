@@ -90,7 +90,7 @@ Verified on the same PC with two different users:
 
 | Service Advisor | Finance |
 | --- | --- |
-| ![](screenshots/17-ticket001-jake-drives-after.png) | ![](screenshots/18-finance-user-drives.png) |
+| ![](screenshots/02-service-user-drives.png) | ![](screenshots/04-finance-user-drives.png) |
 
 All evidence: [`screenshots/`](screenshots/).
 

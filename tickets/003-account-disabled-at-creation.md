@@ -57,9 +57,3 @@ Account created in ADUC with **"Account is disabled"** ticked.
 
 - The onboarding script creates accounts with `-Enabled $true` and verifies the result.
 - The weekly AD report flags disabled accounts that are still in the active Users OU.
-
-## Evidence
-
-![](../screenshots/23-glpi-ldap-test.png)
-![](../screenshots/24-ticket003-disabled-account-found.png)
-![](../screenshots/25-ticket003-passwordlastset-check.png)
